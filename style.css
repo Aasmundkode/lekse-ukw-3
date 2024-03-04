@@ -1,0 +1,26 @@
+body{
+    background-color: gray;
+
+}
+
+
+
+.image1{
+     
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    image-rendering: auto;
+    margin-top: 10px;
+    
+}
+
+img{
+    height: 500px;
+    width: 600px;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+}
